@@ -1,8 +1,6 @@
 (function (factory) {
     'use strict';
-
 	factory(window.jQuery);
-
 }(function (jQuery) {
     'use strict';
 
@@ -20,7 +18,7 @@
 			inputStack = (typeof(inputStack) == "undefined")? [] : inputStack;
 
 			var dataType = (jQuery.isArray(data)? "array" : typeof(data)), valType,
-			type, val, keyStackCopy, keyStackCopy, name, $input, cleanArray,
+			type, val, keyStackCopy, keyStackCopy2, name, $input, cleanArray,
 			toInput = function(stack, val) {
 				var name = "";
 				for(var i = 0; i < stack.length; i++) {
