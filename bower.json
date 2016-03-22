@@ -1,7 +1,7 @@
 {
   "name": "jquery.dataToInputs",
   "main": "dist/jquery.dataToInputs.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/butchmarshall/jquery.dataToInputs",
   "authors": [
     "Butch Marshall <butch.a.marshall@gmail.com>"

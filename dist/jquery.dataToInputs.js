@@ -4,13 +4,10 @@
   } else if (typeof exports === 'object') {
     module.exports = factory(require('jquery'));
   } else {
-    root.jQuery.dataToInputs = factory(root.jquery);
+    root.jQuery.dataToInputs = factory(root.jQuery);
   }
-}(this, function(jquery) {
-(function (factory) {
-    'use strict';
-	factory(window.jQuery);
-}(function (jQuery) {
+}(this, function(jQuery) {
+(function (jQuery) {
     'use strict';
 
 	function isDOMElement(o){
@@ -155,6 +152,7 @@
 		}
 	})();
 
-}));
+	return jQuery.dataToInputs;
+})(jQuery);
 return jQuery.dataToInputs;
 }));

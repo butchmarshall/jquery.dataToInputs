@@ -1,7 +1,4 @@
-(function (factory) {
-    'use strict';
-	factory(window.jQuery);
-}(function (jQuery) {
+(function (jQuery) {
     'use strict';
 
 	function isDOMElement(o){
@@ -146,4 +143,5 @@
 		}
 	})();
 
-}));
+	return jQuery.dataToInputs;
+})(jQuery);

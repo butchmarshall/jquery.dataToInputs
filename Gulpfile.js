@@ -22,7 +22,11 @@ gulp.task('minify', function() {
 		dependencies: function() {
 			return [
 				{
-					name: 'jquery'
+					name: 'jQuery',
+					cjs: 'jquery',
+					amd: 'jquery',
+					param: 'jQuery',
+					global: 'jQuery'
 				}
 			]
 		},
